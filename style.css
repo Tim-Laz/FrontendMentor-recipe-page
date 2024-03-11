@@ -1,0 +1,145 @@
+:root {
+  --primary-1: hsl(14, 45%, 36%);
+  --primary-2: hsl(332, 51%, 32%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  --outfit: "Outfit", sans-serif;
+  --young: "Young Serif", serif;
+}
+
+body {
+  background-color: var(--eggshell);
+}
+
+main {
+  max-width: 73.6rem;
+  margin: 0 auto;
+  background-color: var(--neutral-white);
+  margin-top: 12.3rem;
+  margin-bottom: 12.3rem;
+  border-radius: 24px;
+  padding: 4rem;
+}
+
+.omelette-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.section-img {
+  margin-bottom: 4rem;
+}
+
+.heading-primary {
+  font-family: var(--young);
+  font-size: 4rem;
+  color: var(--dark-charcoal);
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.main-content > div {
+  margin-bottom: 3.2rem;
+}
+
+.main-content > div:last-child {
+  margin-bottom: 0;
+}
+
+.description-text,
+.nutrition-description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.prep-time {
+  background-color: var(--rose-white);
+  padding: 2.8rem;
+  border-radius: 12px;
+}
+
+.subheading {
+  font-size: 2rem;
+  color: var(--primary-2);
+  margin-bottom: 1.6rem;
+  font-weight: 600;
+}
+
+ul {
+  list-style: inside;
+  padding-left: 0.8rem;
+}
+
+li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+li span {
+  font-weight: 600;
+}
+
+.heading-secondary {
+  font-family: var(--young);
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: var(--primary-1);
+  margin-bottom: 2.4rem;
+}
+
+.ingredients-list {
+  display: flex;
+}
+
+hr {
+  margin-bottom: 3.2rem;
+  border: 1px solid var(--light-grey);
+}
+
+.instructions-list {
+  margin-left: 2.88rem;
+}
+
+.instructions-list > li {
+  padding-left: 1.6rem;
+  list-style-type: decimal;
+}
+
+.instructions-list > li::marker {
+  font-family: var(--outfit);
+  color: var(--primary-1);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.nutrition-description {
+  margin-bottom: 2.4rem;
+}
+
+.nutrition-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.2rem;
+}
+
+.nutrition-stat {
+  font-size: 1.6rem;
+  margin-left: 3.2rem;
+}
+
+.nutrition-value {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary-1);
+  margin-left: 1.6rem;
+}
+
+.grid-hr {
+  grid-column: 1/-1;
+  margin-bottom: 0;
+}
