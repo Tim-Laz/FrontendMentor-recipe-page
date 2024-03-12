@@ -123,8 +123,10 @@ ul > li::before {
 }
 
 hr {
+  height: 0px;
   margin-bottom: 3.2rem;
-  border: 1px solid var(--light-grey);
+  border: unset;
+  border-bottom: 1px solid var(--light-grey);
 }
 
 .instructions-list {
