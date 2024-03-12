@@ -143,6 +143,7 @@ hr {
   color: var(--primary-1);
   font-weight: 700;
   font-size: 1.6rem;
+  font-variant-numeric: normal;
 }
 
 .nutrition-description {
