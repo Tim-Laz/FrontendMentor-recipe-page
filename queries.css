@@ -1,0 +1,35 @@
+@media (max-width: 736px) {
+  main {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0%;
+  }
+
+  .section-img {
+    padding: 0;
+  }
+
+  .omelette-img {
+    border-radius: 0%;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-primary {
+    font-size: 3.6rem;
+    line-height: 1;
+  }
+
+  .main-content {
+    padding: 0 3.2rem 3.2rem 3.2rem;
+  }
+
+  .prep-time {
+    padding: 2.4rem;
+  }
+
+  li {
+    line-height: 1.4;
+  }
+}

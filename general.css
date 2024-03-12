@@ -69,17 +69,17 @@ body {
   color: var(--wenge-brown);
 }
 
+.flex-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.flex-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  justify-content: center;
 }

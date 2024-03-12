@@ -22,7 +22,6 @@ main {
   margin-top: 12.3rem;
   margin-bottom: 12.3rem;
   border-radius: 24px;
-  padding: 4rem;
 }
 
 .omelette-img {
@@ -32,6 +31,11 @@ main {
 
 .section-img {
   margin-bottom: 4rem;
+  padding: 4rem 4rem 0 4rem;
+}
+
+.main-content {
+  padding: 0 4rem 4rem 4rem;
 }
 
 .heading-primary {
@@ -70,8 +74,12 @@ main {
 }
 
 ul {
-  list-style: inside;
-  padding-left: 0.8rem;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
 }
 
 li {
@@ -81,7 +89,7 @@ li {
 }
 
 li span {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .heading-secondary {
@@ -92,8 +100,23 @@ li span {
   margin-bottom: 2.4rem;
 }
 
-.ingredients-list {
-  display: flex;
+ul > li::before {
+  display: inline-block;
+  content: "";
+  border-radius: 50%;
+  height: 4px;
+  width: 4px;
+  margin-left: 0.8rem;
+  margin-right: 2.88rem;
+  flex: 0 0 4px;
+}
+
+.time-list > li::before {
+  background-color: var(--primary-1);
+}
+
+.ingredients-list > li::before {
+  background-color: var(--primary-2);
 }
 
 hr {
